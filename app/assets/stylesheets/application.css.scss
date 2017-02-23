@@ -1,8 +1,9 @@
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+@import "bootstrap-sprockets";
+@import "bootstrap";
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 h1, h2, h3 { font-family: "Open Sans", sans-serif; }
+/* NAV */
 .navbar, .home-callout {
   background: #525252;
   background: -webkit-linear-gradient(to left, #525252 , #3d72b4);
@@ -17,6 +18,14 @@ h1, h2, h3 { font-family: "Open Sans", sans-serif; }
     opacity: .75;
   }
 }
+.navbar-default .navbar-toggle .icon-bar { background: #fff; }
+.navbar-default .navbar-toggle {
+  border: 2px solid #fff;
+  &:hover, &:focus {
+    background: #3d72b4;
+  }
+}
+/* HOME */
 .home-callout {
   margin: -20px 0 0 0;
   padding: 50px 0 100px 0;
