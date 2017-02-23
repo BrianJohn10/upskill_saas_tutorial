@@ -15,12 +15,17 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-body, .navbar {
-  background: #4ECDC4;
-  background: -webkit-linear-gradient(to left, #4ECDC4 , #556270);
-  background: linear-gradient(to left, #4ECDC4 , #556270);
-}
-.navbar {border:none;}
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
+}
+.navbar, .home-callout {
+  background: #525252;
+  background: -webkit-linear-gradient(to left, #525252 , #3d72b4);
+  background: linear-gradient(to left, #525252 , #3d72b4);
+}
+.navbar {border:none;}
+.home-callout {
+  margin: -20px 0 0 0;
+  padding: 50px 0 100px 0;
+  color: #fff;
 }
